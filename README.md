@@ -14,7 +14,7 @@ More case studies, including Boston Residential Concierge and the Butterfly Mand
 
 ## Also see
 
-[business-analytics-portfolio](https://github.com/Toyeen1/business-analytics-portfolio) for graduate coursework in forecasting, classification, segmentation, and market analysis.
+[business-analytics-portfolio](https://github.com/Toyeen1/business-analytics-portfolio) for projects in forecasting, classification, segmentation, and market analysis.
 
 ## Let's connect
 
