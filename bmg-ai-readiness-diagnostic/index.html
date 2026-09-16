@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A rapid organizational AI readiness diagnostic by Butterfly Mandate Group.">
+  <title>BMG AI Readiness Diagnostic</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Butterfly Mandate Group · Strategy Tool</p>
+      <h1>Is your organization ready to create value with AI?</h1>
+      <p class="lede">Assess six capabilities that determine whether AI becomes a useful operating system—or another disconnected tool.</p>
+      <div class="notice">18 questions · About 5 minutes · No data is stored or transmitted</div>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="card intro" id="intro">
+      <h2>Before you begin</h2>
+      <p>Answer for the organization as it operates today, not where it intends to be. Choose the option best supported by current evidence.</p>
+      <button id="start">Start assessment</button>
+    </section>
+    <form id="assessment" class="hidden" novalidate>
+      <div class="progress-row">
+        <span id="progressText">0 of 18 answered</span>
+        <progress id="progress" max="18" value="0"></progress>
+      </div>
+      <div id="questions"></div>
+      <p id="formError" class="error" role="alert"></p>
+      <button type="submit">View readiness results</button>
+    </form>
+    <section id="results" class="hidden" aria-live="polite"></section>
+    <footer>
+      <p>This rapid diagnostic is an educational portfolio prototype, not an audit or certification. Results should be validated through interviews, workflow evidence, data review, and stakeholder input.</p>
+      <p><a href="README.md">Read the case study</a> · <a href="methodology.md">Review the methodology</a></p>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
